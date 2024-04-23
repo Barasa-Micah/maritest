@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
+import video from  '../../assets/Prototype.mp4';
 
 function Mechanism() {
     return (
-        <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', zIndex: -1 }}>
+        <div>
             <ReactPlayer
-                url='your-video-url.mp4'
+                url={video}
                 playing
-                loop
-                muted
+                controls
                 width='100%'
-                height='100%'
+                height='100vh'
             />
         </div>
     );
