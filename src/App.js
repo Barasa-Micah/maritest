@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Components/Home/Home";
 import Mechanism from "./Components/Mechanism/Mechanism";
@@ -14,7 +14,7 @@ function App() {
       <Partners />
     </div>
   )
-  
+
 }
 
 export default App;
