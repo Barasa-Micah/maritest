@@ -1,0 +1,41 @@
+#intro {
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.introContent {
+    width: 50%;
+    padding: 2rem;
+    font-size: 1.7rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bg {
+    max-width: 50%;
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    margin-right: 10rem;
+    margin-bottom: 5rem;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.btn {
+    background: white;
+    margin: 1rem 0;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    width: 40%;
+}

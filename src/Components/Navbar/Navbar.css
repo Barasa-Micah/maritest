@@ -36,9 +36,9 @@
 }
 
 .desktopMenuListItem:hover{
-    color: orange;
+    color: limegreen;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid orange;
+    border-bottom: 3px solid limegreen;
 }
 .desktopMenuBtn{
     background: white;
