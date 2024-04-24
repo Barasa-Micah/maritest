@@ -1,19 +1,21 @@
 import React from 'react';
-import ReactPlayer from 'react-player';
-import video from  '../../assets/Prototype.mp4';
+import './Mechanism.css'; // Assuming you have a CSS file for styling
 
 function Mechanism() {
-    return (
-        <div>
-            <ReactPlayer
-                url={video}
-                playing
-                controls
-                width='100%'
-                height='100vh'
-            />
-        </div>
-    );
+  return (
+    <div id="mechanism">
+      <div className="videoWrapper">
+        <iframe
+          src="https://drive.google.com/file/d/1dCJez4U0hzs_nN_5_1-XWt7UrdUC_3_s/preview"
+          title="Google Drive Video"
+          width="640"
+          height="360"
+          allow="autoplay"
+          className="videoIframe"
+        ></iframe>
+      </div>
+    </div>
+  );
 }
 
 export default Mechanism;

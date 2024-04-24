@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css';
-import logo from '../../assets/Maritest1-Photoroom.png-Photoroom (1).png';
+import logo from '../../assets/Maritest1.jpg';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
