@@ -7,7 +7,7 @@
 
 .partnersPagetitle {
     font-size: 2rem;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     color: black;
 }
 
@@ -30,6 +30,39 @@
     object-fit: contain;
     margin: 1px;
     border: 1px solid black;
+}
+
+#partnersList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+   
+}
+
+.partner {
+    text-align: center;
+    position: relative;
+}
+
+.partnerName {
+    font-weight: bold;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.partnersImg {
+    display: block;
+    max-width: 150px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 0;
 }
 
 @media (max-width: 768px) {

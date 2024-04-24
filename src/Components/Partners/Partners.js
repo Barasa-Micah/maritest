@@ -11,11 +11,23 @@ const Partners = () => {
       <div className='partnersFrame'>
         <div id='partners'>
           <h1 className='partnersPagetitle'>Our Partners</h1>
-          <div id='partnersImgs'>
-            <img src={BlackPearl} alt='BlackPearl' className='partnersImg' style={{ height: '120px' }} />
-            <img src={Futurize} alt='Futurize' className='partnersImg'/>
-            <img src={Youthux} alt='Youtux' className='partnersImg'/>
-            <img src={Fundi } alt='Fundi' className='partnersImg'/>
+          <div id='partnersList'>
+            <div className='partner'>
+              <span className='partnerName'>Black Pearl</span>
+              <img src={BlackPearl} alt='BlackPearl' className='partnersImg' />
+            </div>
+            <div className='partner'>
+              <span className='partnerName'>Futurize</span>
+              <img src={Futurize} alt='Futurize' className='partnersImg' />
+            </div>
+            <div className='partner'>
+              <span className='partnerName'>Youthux</span>
+              <img src={Youthux} alt='Youthux' className='partnersImg' />
+            </div>
+            <div className='partner'>
+              <span className='partnerName'>Fundi Bots</span>
+              <img src={Fundi} alt='Fundi' className='partnersImg' />
+            </div>
           </div>
         </div>
       </div>
@@ -23,4 +35,4 @@ const Partners = () => {
   )
 }
 
-export default Partners
+export default Partners;
