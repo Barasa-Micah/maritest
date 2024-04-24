@@ -39,3 +39,26 @@
     border-radius: 2rem;
     width: 40%;
 }
+
+@media (max-width: 768px) {
+    .introContent {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .bg {
+      max-width: 100%;
+      margin-right: 0;
+      margin-bottom: 2rem;
+    }
+  
+    .btn {
+      width: 60%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .btn {
+      width: 80%;
+    }
+  }
