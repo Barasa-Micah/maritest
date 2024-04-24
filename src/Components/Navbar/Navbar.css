@@ -1,4 +1,3 @@
-/* Default styles */
 .navbar {
     background: white;
     height: 5rem;
@@ -11,7 +10,7 @@
     position: sticky;
     top: 0;
     z-index: 3;
-    padding-right: 450px; /* This seems unnecessary for responsiveness */
+    padding-right: 450px;
     color: black;
 }
 

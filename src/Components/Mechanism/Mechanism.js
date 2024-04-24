@@ -1,6 +1,5 @@
 import React from 'react';
-import './Mechanism.css'; // Assuming you have a CSS file for styling
-
+import './Mechanism.css';
 function Mechanism() {
   return (
     <div id="mechanism">
