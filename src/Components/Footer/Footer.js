@@ -1,5 +1,7 @@
 import React from 'react';
 import './Footer.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
     return (
@@ -7,8 +9,12 @@ const Footer = () => {
         <div className='footerContent'>
           <p>&copy; 2024 Maritest. Uganda</p>
           <div className='socialLinks'>
-            <a href='https://www.linkedin.com/company/mari-test-africa/' target='_blank' rel='noopener noreferrer'>LinkedIn</a>
-            <a href='https://www.instagram.com/maritest_africa?igsh=MXJ5Nmt1bWhsYXkzZg==' target='_blank' rel='noopener noreferrer'>Instagram</a>
+            <a href='https://www.linkedin.com/company/maritest' target='_blank' rel='noopener noreferrer'>
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+            <a href='https://www.instagram.com/maritest' target='_blank' rel='noopener noreferrer'>
+              <FontAwesomeIcon icon={faInstagram} />
+            </a>
           </div>
         </div>
       </footer>

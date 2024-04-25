@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Components/Home/Home";
 import Mechanism from "./Components/Mechanism/Mechanism";
 import Partners from "./Components/Partners/Partners";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/mechanism" element={<Mechanism />} />
           <Route path="/partners" element={<Partners />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
