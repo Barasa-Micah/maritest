@@ -13,19 +13,20 @@ const Partners = () => {
           <h1 className='partnersPagetitle'>Our Partners</h1>
           <div id='partnersList'>
             <div className='partner'>
-              <span className='partnerName'>Black Pearl</span>
+              {/* <span className='partnerName'>Black Pearl</span> */}
+              <a href="https://blackpearlglobalinvestments.com/ " className='partnerName'>Black Pearl</a>
               <img src={BlackPearl} alt='BlackPearl' className='partnersImg' />
             </div>
             <div className='partner'>
-              <span className='partnerName'>Futurize</span>
+            <a href="https://www.futurize.studio/" className='partnerName'>Futurize</a>
               <img src={Futurize} alt='Futurize' className='partnersImg' />
             </div>
             <div className='partner'>
-              <span className='partnerName'>Youthux</span>
+            <a href="https://youtu.be/lFM02WNWhoM?t=1" className='partnerName'>Youth UX</a>
               <img src={Youthux} alt='Youthux' className='partnersImg' />
             </div>
             <div className='partner'>
-              <span className='partnerName'>Fundi Bots</span>
+            <a href="https://fundibots.org/" className='partnerName'>Fundi Bots</a>
               <img src={Fundi} alt='Fundi' className='partnersImg' />
             </div>
           </div>
