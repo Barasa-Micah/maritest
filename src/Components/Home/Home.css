@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    /* background-color: white; */
     color: black;
 }
 
@@ -35,13 +35,17 @@
 }
 
 .btn {
-    background: black;
+    background: #132e3c;
     margin: 1rem 0;
     padding: 0.75rem 2rem;
     border: none;
     border-radius: 2rem;
     width: 40%;
     color: white;
+}
+
+.btn:hover{
+    background-color: #076338;
 }
 
 @media (max-width: 768px) {
@@ -55,22 +59,26 @@
     .introContent {
         width: 100%;
         text-align: center;
-        margin-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .bg {
         max-width: 100%;
         margin-right: 0;
+        height: 60vh;
     }
 
     .btn {
-        width: 60%;
+        width: 40%;
     }
 }
 
 @media (max-width: 480px) {
     .btn {
-        width: 80%;
+        width: 70%;
     }
 }
  
