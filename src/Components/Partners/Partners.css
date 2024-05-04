@@ -6,6 +6,8 @@
     flex-direction: column;
     /* justify-items: center; */
     justify-content: center;
+    /* background-color: #132e3c; */
+    /* background-color: ; */
 }
 
 .partnersPagetitle {
@@ -16,11 +18,19 @@
 
 
 .partnersImg {
-    width: 30vh;
-    height: 30vh;
+    width: 35vh;
+    height: 25vh;
     object-fit: contain;
+    padding: 8px;
     /* margin: 1px; */
     /* border: 1px solid black; */
+}
+
+.partnersImg:hover{
+    object-fit:contain;
+    /* background-color: green; */
+    transition: .2s;
+    transform: scale(1.35);
 }
 
 #partnersList {
@@ -48,7 +58,9 @@
     max-width: 150px;
     margin: 0 auto;
     /* position: relative; */
-    z-index: 0;
+    /* z-index: 0; */
+    border-radius: 100%;
+    border: 2px solid #d65430;
 }
 
 .partnerName {

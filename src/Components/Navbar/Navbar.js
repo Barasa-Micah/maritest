@@ -1,22 +1,45 @@
-import React from 'react';
+import React, { useEffect, useState } from "react";
 import './Navbar.css';
-import logo from '../../assets/Maritest1.jpg';
-import { Link } from 'react-router-dom';
 
 const Navbar = () => {
-    return (
-      <nav className='navbar'>
-        <div className="logo-container">
-          <img src={logo} alt='logo' className='logo'/>
-        </div>
-        <div className='desktopMenu'>
-          <Link to="/" className='desktopMenuListItem'>Home</Link>
-          <Link to="/mechanism" className='desktopMenuListItem'>How It Works</Link>
-          <Link to="/partners" className='desktopMenuListItem'>Partners</Link>
-        </div>
-      </nav>
-    );
-  }
-  
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  return (
+    <nav className={scrolled ? 'navbar scrolled' : 'navbar'}>
+      <div className='desktopMenu'>
+        <ul>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#story">Our Story</a>
+          </li>
+          <li>
+            <a href="#partners">Partners</a>
+          </li>
+          <li>
+            <a href="#contact-us">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  );
+}
 
 export default Navbar;
