@@ -70,11 +70,15 @@
 } */
 
 @media (max-width: 768px) {
+    /* .home{
+        height: 100vh;
+    } */
     #intro {
         flex-direction: column;
         align-items: center;
         padding: 1rem;
         height: auto;
+        /* height: calc(100vh - 2rem); */
     }
 
     .introContent {

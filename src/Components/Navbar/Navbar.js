@@ -28,14 +28,18 @@ const Navbar = () => {
             <a href="#home">Home</a>
           </li>
           <li>
+            <a href="#impact">Impact</a>
+          </li>
+          <li>
+            <a href="#recents">Recent Activities</a>
+          </li>
+          <li>
             <a href="#story">Our Story</a>
           </li>
           <li>
             <a href="#partners">Partners</a>
           </li>
-          <li>
-            <a href="#contact-us">Contact us</a>
-          </li>
+          
         </ul>
       </div>
     </nav>
@@ -43,3 +47,44 @@ const Navbar = () => {
 }
 
 export default Navbar;
+
+// import React, { useState } from "react";
+// import './Navbar.css';
+// import menu from '../../assets/menu.png';
+
+// const Navbar = () => {
+//   const [showMenu, setShowMenu] = useState(false);
+
+//   const toggleMenu = () => {
+//     setShowMenu(!showMenu);
+//   };
+
+//   return (
+//     <nav className='navbar'>
+//       <div className={`menu-img ${showMenu ? 'active' : ''}`} onClick={toggleMenu}>
+//         <img src={menu} alt='menu'/>
+//       </div>
+//       <div className={`desktopMenu ${showMenu ? 'show' : ''}`}>
+//         <ul>
+//           <li>
+//             <a href="#home">Home</a>
+//           </li>
+//           <li>
+//             <a href="#mechanism">How it works</a>
+//           </li>
+//           <li>
+//             <a href="#recents">Recent Activities</a>
+//           </li>
+//           <li>
+//             <a href="#story">Our Story</a>
+//           </li>
+//           <li>
+//             <a href="#partners">Partners</a>
+//           </li>
+//         </ul>
+//       </div>
+//     </nav>
+//   );
+// }
+
+// export default Navbar;

@@ -31,17 +31,6 @@ const Home = () => {
 
 
         <span className='introtext'>
-          {/* <p>"Nearly every minute a child below the age of 5 dies from malaria" - UNICEF
-          Hakim on Bussi Island </p> */}
-          {/* <br></br> */}
-          {/* <p>
-          Our rationale
-          Annually an approximate of 240 million people are infected with malaria and more than half a million people die to malaria. 95% of the deaths happen in Africa and 80% are children below the age of 5 years. (WHO report on Malaria)
-          </p> */}
-
-          {/* <p>To combat this, we designed Mari Test, a non-invasive, automated, and reusable malaria diagnosis by leveraging artificial intelligence and advanced sensor technology. </p> */}
-
-          {/* Mari Test seeks to bridge the prevailing gap of limited access to early diagnosis and treatment in these remote regions. It equips communities with a dependable tool for malaria diagnosis and empowers them with valuable data to aid in strategic disease control. */}
           <p>
           Mari Test, a device that will end Malaria in resource-restrained communities
           </p>

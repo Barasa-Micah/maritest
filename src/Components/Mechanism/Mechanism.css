@@ -1,0 +1,139 @@
+.mechanism{
+    height: 100%;
+    /* background-color:#d65430; */
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.same{
+    color: #132e3c;
+}
+
+.uniq{
+    /* color: #d65430; */
+    color: #076338;
+}
+
+.mechanism-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2rem;
+    padding: 0;
+}
+
+.device-left{
+    width: 50%;
+    height: 100%;
+}
+
+.device-left > img{
+    width: 90%;
+    height: 100%;
+    object-fit: contain;
+    border: none;
+    outline: none;
+    background: none;
+    border-radius: .8em;
+}
+
+.h-stats{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    justify-content: space-around;
+    gap: 30px;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #132e3c;
+
+}
+.stats{
+    display: flex;    /* justify-content: space-between; */
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-stats{
+    font-weight: bold;
+    font-size: 40px;
+    /* color: #d65430; */
+    color: #076338;
+}
+
+.content-right{
+    width: 50%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.product-stats{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    gap: 10px;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #132e3c;
+}
+
+.product-stats > h2{
+    font-size: 30px;
+    /* color: #d65430; */
+    color: #076338;
+}
+
+.features{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    margin: 0;
+}
+
+.product-left > ul{
+    /* height: 100%; */
+    list-style: circle;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-right > ul{
+    /* height: 100%; */
+    list-style: circle;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .mechanism{
+    height: auto;
+    }
+
+.mechanism-content{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* margin: 2rem; */
+    padding: 0;
+}
+     
+ 
+}
+/*  
+@media (max-width: 600px) {
+    
+} */

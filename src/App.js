@@ -5,6 +5,7 @@ import Home from "./Components/Home/Home";
 import Mechanism from "./Components/Mechanism/Mechanism";
 import Story from "./Components/Story/Story";
 import Partners from "./Components/Partners/Partners";
+import Recents from "./Components/Recents/Recents";
 import Footer from "./Components/Footer/Footer";
 import DividerComponent from "./Components/Divider";
 
@@ -16,8 +17,13 @@ function App() {
         <Home />
         <DividerComponent />
       </div>
-      <div id="mechanism">
+      <div id="impact">
         <Mechanism />
+        <DividerComponent />
+      </div>
+      <div id='recents'>
+        <Recents />
+        <DividerComponent />
       </div>
       <div id="story">
         <Story />

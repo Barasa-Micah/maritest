@@ -42,3 +42,24 @@
 
   }
 }
+
+b{
+  color: #076338;
+}
+
+h3{
+  color: #076338;
+}
+
+.contacts{
+  margin: 20px;
+}
+
+img{
+  height: 50%;
+}
+
+.footerContent > img{
+  /* height: 50%; */
+  background-color: white;
+}

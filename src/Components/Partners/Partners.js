@@ -11,7 +11,7 @@ const Partners = () => {
     <section id='partnersPage'>
       <div className='partnersFrame'>
         <div id='partners'>
-          <h1 className='partnersPagetitle'>Our Partners</h1>
+          <h1 className='partnersPagetitle'>Happy to be in Partnership with</h1>
           <div id='partnersList'>
             <div className='partner'>
               {/* <span className='partnerName'>Black Pearl</span> */}

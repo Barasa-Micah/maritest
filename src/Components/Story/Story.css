@@ -1,10 +1,18 @@
-  
+ .page-container{
+    color: #132e3c;
+    /* background-color: #d65430; */
+    /* background-color: #307898; */
+    height: 100%;
+ } 
+ 
 .story-container {
     display: flex;
     align-items: center;
     justify-content:center;
     /* max-width: 90vw;  */
-    color: #132e3c;
+    color: #076338;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
   
   .scrollable-text {
@@ -27,20 +35,15 @@
   
   
 .scrollable-text > div > p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /* text-align: center; */
-    /* flex-wrap: nowrap; */
-    font-size: 1.1em;
+    flex-wrap: nowrap;
+    /* font-size: 1.1em; */
     padding: 1rem;
     /* color: #000; */
     /* color: #d65430; */
     /* background-color: #307898; */
   }
-
-.brown{
-    color: #076338;
-}
-
 .button{
     display: flex;
     align-items: center;
@@ -50,23 +53,27 @@
 
 button{
     padding: 15px;
-    color: #d65430;
-    background-color: #132e3c;
+    /* color: #d65430; */
+    background-color: #076338;
+    /* background-color: #307898; */
     border-radius: .8em;
     cursor: pointer;
+    margin-bottom: 1em;
 }
 
-@media screen ( max-width: 768px ) {
+@media ( max-width: 768px ) {
     .scrollable-text {
         display: flex;
         max-width: 90%; 
         flex-direction: column;
         align-items: center;
         justify-content: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
       }
 
       .scrollable-text > div > p {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-align: center;
         font-size: 1.1em;
         padding: 1rem;
